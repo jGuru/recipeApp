@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Recipe App</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        
+        <a href="recipeServlet?create=true">Click here to Create your recipe</a>
+        
+        <form action="recipeServlet" method="post">
+            <table>
+                <tr><td>Is Vegetarian?</td><td><input type="checkbox" name="veg"/></td></tr>
+                <tr><td>Suitable for</td><td><input type="text" name="suitableFor"/></td></tr>
+                <tr><td>Ingredients</td><td>
+                        <select name="ingredients" multiple="multiple">
+                            <option value=cucumber>Cucumber</option>
+                            <option value=termaric>Termaric</option>
+                            <option value=onion>Onion</option>
+                            <option value=garlic>Garlic</option>
+                        </select>
+                    </td></tr>
+                <tr>
+                    <td>Cooking Instructions</td>
+                    <td><textarea name="instructions" rows="4" cols="20">
+Cooking instructions goes here
+                        </textarea></td>
+                </tr>
+                <tr><td colspan="2" align="center"><input type="submit" value="Create Recipe"></td></tr>
+                
+            </table>
+        </form>
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+        
+        
+    </body>
+</html>
