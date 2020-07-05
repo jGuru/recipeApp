@@ -16,6 +16,7 @@
   - Glassfish Server 5.0.1
   - Derby Database embeded with glassfish server
   - for persistence **jdbc/sample** jdbc resource must be configured in the glassfish server it is configured by default but in case it is not present this needs to be created otherwise things will fail.
+  - In **pom.xml** file the location of **glassfish-embedded-static-shell.jar** file must be specified otherwise junit will not work the same can be found in root directory of glassfish and **glassfish/lib/embedded**
 
 #  Limitations
    - junit test cases highly dependent on the test data so the test data needs to be properly setup due to which test cases it self create the data first and then executes.
