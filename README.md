@@ -22,3 +22,7 @@
    - junit test cases highly dependent on the test data so the test data needs to be properly setup due to which test cases it self create the data first and then executes.
    - test cases for REST services are written but not working at the moment since some version conflicts are still there and needs more investigation.
    - Glassfish instance must be running in order successful execution of test cases.
+
+#  Screen prints
+##  Successful build of the project
+![Successful Build](proofs/project build success with all tests.JPG)
