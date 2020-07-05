@@ -25,4 +25,4 @@
 
 #  Screen prints
 ##  Successful build of the project
-![Successful Build](proofs/project build success with all tests.JPG)
+<img src="proofs/project build success with all tests.JPG" style="float: left; margin-right: 10px;" />
